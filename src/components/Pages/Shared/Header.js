@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { BsBell } from 'react-icons/bs';
 import { BsChatDots } from 'react-icons/bs';
 import { RiLogoutBoxRLine } from 'react-icons/ri';
@@ -21,8 +22,8 @@ const header = () => {
    
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-    <div >
-    <BsBell></BsBell>
+    <div className='text-2xl'>
+ <BsBell></BsBell>
     </div>
       </label>
   </div>
@@ -31,7 +32,7 @@ const header = () => {
    
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-    <div >
+    <div className='text-2xl' >
     <BsChatDots></BsChatDots>
     </div>
       </label>
@@ -47,7 +48,7 @@ const header = () => {
 
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-    <div >
+    <div className='text-2xl' >
     <RiLogoutBoxRLine></RiLogoutBoxRLine>
     </div>
       </label>
