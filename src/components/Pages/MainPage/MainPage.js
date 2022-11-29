@@ -3,7 +3,9 @@ import "./MainPage.css";
 import { TbCurrentLocation } from "react-icons/tb";
 import { BiCategory } from "react-icons/bi";
 import { BiDollarCircle } from "react-icons/bi";
-
+import pataIcon from "../../../Canabis resources/Vector (14).png";
+import cultivation from "../../../Canabis resources/Vector (15).png";
+import CartPage from "./CartPage";
 const MainPage = () => {
   return (
     <div className="bg-gray-100 p-[19px]">
@@ -14,7 +16,8 @@ const MainPage = () => {
         Explore and bid on your desired product based on several filters
       </p>
 
-      <div className="location Bar mt-[25px] bg-white">
+      <div className="flex gap-3" >
+      <div className="location  Bar mt-[25px] bg-white">
         <div className="flex gap-2 pl-[32px] pt-[31px] items-center ">
           <p>Location</p>
           <TbCurrentLocation></TbCurrentLocation>
@@ -91,7 +94,56 @@ const MainPage = () => {
           <BiDollarCircle></BiDollarCircle>
         </div>
         <hr className="ml-[14px] mr-[14px]" />
+
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="40"
+          className="range range-success ml-[32px] mt-[45px] w-[200px] range-xs"
+        />
+
+        <div className="flex gap-2 pl-[32px] pt-[31px] items-center ">
+          <p>Strain</p>
+          <img src={pataIcon} alt="" />
+        </div>
+        <hr className="ml-[14px] mr-[14px]" />
+        <div className="flex pt-[28.5px] pl-[15.5px] pr-[15.5px]">
+          <p className="text-green-500 pt-[5px] pb-[5px] border border-green-500 pl-[16px] pr-[16px]">
+            Indica
+          </p>
+          <p className="text-gray-500 pt-[5px] pb-[5px] border border-gray-500 pl-[16px] pr-[16px]">
+            Indica
+          </p>
+          <p className="text-gray-500 pt-[5px] pb-[5px] border border-gray-500 pl-[16px] pr-[16px]">
+            Indica
+          </p>
+        </div>
+
+        <div>
+        <div className="flex gap-2 pl-[32px] pt-[31px] items-center ">
+          <p>Cultivation Type</p>
+          <img src={cultivation} alt="" />
+        </div>
+        <hr className="ml-[14px] mr-[14px]" />
+        <div className="flex pt-[28.5px] pl-[15.5px] pr-[15.5px]">
+          <p className="text-green-500 pt-[5px] pb-[5px] border border-green-500 pl-[16px] pr-[16px]">
+            All
+          </p>
+          <p className="text-gray-500 pt-[5px] pb-[5px] border border-gray-500 pl-[16px] pr-[16px]">
+            Indoor
+          </p>
+          <p className="text-gray-500 pt-[5px] pb-[5px] border border-gray-500 pl-[16px] pr-[16px]">
+            Outdoor
+          </p>
+        </div>
       </div>
+      </div>
+      <div className="">
+        <CartPage></CartPage>
+      </div>
+      </div>
+     
     </div>
   );
 };
