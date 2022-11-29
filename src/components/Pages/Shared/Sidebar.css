@@ -1,0 +1,21 @@
+.canabis{
+height: 118.0284194946289px;
+width: 150px;
+left: 86px;
+top: 20px;
+border-radius: 0px;
+}
+
+.Dispensary{
+    font-family:inherit;
+    font-size: 20px;
+    font-weight: 700;
+   
+    color: white;    
+    background-color: #47CC4D;
+    
+}
+
+.menu li{
+    padding-left: 61px;
+}
