@@ -7,6 +7,7 @@ import pataIcon from "../../../Canabis resources/Vector (14).png";
 import cultivation from "../../../Canabis resources/Vector (15).png";
 import CartPage from "./CartPage";
 import Carts from "./Carts/Carts";
+import { Pagination } from "@mui/material";
 const MainPage = () => {
   return (
     <div className="bg-gray-100 p-[19px] max-w-[1117px]">
@@ -143,8 +144,9 @@ const MainPage = () => {
       <div className="">
      <Carts></Carts>
       </div>
+ 
       </div>
-     
+      <div className="flex justify-center pt-7"><Pagination count={10} variant="outlined" shape="rounded" /></div>
     </div>
   );
 };
