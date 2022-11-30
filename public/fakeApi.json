@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/CzYKt7k/1.png",
+    "heading1": "ACDC #08 Outdoor",
+    "heading": "The Green Bull 2 LLC",
+    "amountText": "Asking Price",
+    "progressImg": "https://i.ibb.co/rs4kRCX/middle.png",
+    "clmn4":"https://i.ibb.co/vkS3sNK/Group-524-1.png",
+    "price": "$600.00/lb"
+  },
+  {
+    "id": 2,
+    "closed":"https://i.ibb.co/2FH4Pnh/Group-521.png",
+    "image": "https://i.ibb.co/BCRKtpT/2.png",
+    "heading1": "ACDC #08 Outdoor",
+    "heading": "WCW Enterprises, LLC",
+    "amountText": "Asking Price",
+    "clmn4":"https://i.ibb.co/2FH4Pnh/Group-521.png",
+    "progressImg": "https://i.ibb.co/rs4kRCX/middle.png",
+    "price": "$1100.00/lb"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/7j1t0Mt/3.png",
+    "heading1": "ACDC #08 Outdoor",
+    "heading": "Green Country MMJ",
+    "amountText": "Asking Price",
+    "progressImg": "https://i.ibb.co/rs4kRCX/middle.png",
+    "clmn4":"https://i.ibb.co/vkS3sNK/Group-524-1.png",
+    "price": "$800.00/lb"
+  },
+  {
+    "id": 4,
+    "clmn4":"https://i.ibb.co/30LpRBS/Group-523.png",
+    "image": "https://i.ibb.co/TqgSD80/4.png",
+    "heading1": "ACDC #08 Outdoor",
+    "heading": "Gold Leaf Acres, LLC",
+    "amountText": "Asking Price",
+    "progressImg": "https://i.ibb.co/rs4kRCX/middle.png",
+    "price": "$650.00/lb"
+  },
+  {
+    "id": 5,
+    "clmn4":"https://i.ibb.co/30LpRBS/Group-523.png",
+    "image": "https://i.ibb.co/LvVmLd6/5.png",
+    "heading1": "ACDC #08 Outdoor",
+    "heading": "Pong Thao",
+    "amountText": "Asking Price",
+    "progressImg": "https://i.ibb.co/rs4kRCX/middle.png",
+    "price": "$790.00/lb"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/CzYKt7k/1.png",
+    "heading1": "ACDC #08 Outdoor",
+    "heading": "Loud Factory, LLC",
+    "amountText": "Asking Price",
+    "progressImg": "https://i.ibb.co/rs4kRCX/middle.png",
+    "clmn4":"https://i.ibb.co/vkS3sNK/Group-524-1.png",
+    "price": "$600.00/lb"
+  }
+]

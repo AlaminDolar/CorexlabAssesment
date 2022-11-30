@@ -6,6 +6,7 @@ import { BiDollarCircle } from "react-icons/bi";
 import pataIcon from "../../../Canabis resources/Vector (14).png";
 import cultivation from "../../../Canabis resources/Vector (15).png";
 import CartPage from "./CartPage";
+import Carts from "./Carts/Carts";
 const MainPage = () => {
   return (
     <div className="bg-gray-100 p-[19px]">
@@ -140,7 +141,7 @@ const MainPage = () => {
       </div>
       </div>
       <div className="">
-        <CartPage></CartPage>
+     <Carts></Carts>
       </div>
       </div>
      

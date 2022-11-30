@@ -4,7 +4,8 @@ import center from "../../../Canabis resources/middle.png";
 import { AiOutlineCrown } from "react-icons/ai";
 import Auction from "../../../Canabis resources/Vector (1).png";
 
-const CartPage = () => {
+const CartPage = ({cart}) => {
+ 
   return (
     <div className="cart h-[115px] w-[793px] mt-[25px] bg-white">
       <div className="grid grid-cols-6 divide-x ">
@@ -12,14 +13,14 @@ const CartPage = () => {
           <div>
             <img
               className="pt-[17px] pl-[18px] pb-[18px] pr-[13px]"
-              src={canabis}
+              src={cart.image}
               alt=""
             />
           </div>
           <div className="grid  items-center ">
             <span className="text ">
-              ACDE #08 Outdoor <br />
-              The Green Bull 2LLC
+              {cart.heading1} <br />
+              {cart.heading}
             </span>
           </div>
         </div>
@@ -28,7 +29,7 @@ const CartPage = () => {
           <div>
             <img
               className="pt-[17px] pl-[18px] pb-[18px] pr-[13px]"
-              src={center}
+              src={cart.progressImg}
               alt=""
             />
           </div>
@@ -36,18 +37,17 @@ const CartPage = () => {
 
         <div className="grid justify-center items-center">
           <p className="text-xl font-bold">
-            <span className="font-normal text-sm">Asking Price</span>
+            <span className="font-normal text-sm">{cart.amountText}</span>
             <br />
-            $600.00/lb
+           {cart.price}
           </p>
         </div>
 
         <div className="flex gap-1 justify-center items-center">
-          <p className="text-green-600">
-            <AiOutlineCrown></AiOutlineCrown>
-          </p>{" "}
-          <p className="text-green-600">Awarded</p>
+          <img src={cart.clmn4} alt="" />
         </div>
+
+
         <div className="grid items-center  ">
           <div className="flex gap-1 m-2 pl-[43px] pb-[6px] pt-[6px] pr-[26px] bg-green-600 rounded">
             <img src={Auction} alt="" />
