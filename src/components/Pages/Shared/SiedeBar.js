@@ -1,5 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import { AiOutlineArrowRight } from "react-icons/ai";
 import canabis from "../../../Canabis resources/Cannabis_Connector_1-removebg-preview 1.png";
 import dashboard from "../../../Canabis resources/Vector.png";
 import Auction from "../../../Canabis resources/Vector (1).png";
@@ -12,7 +13,7 @@ import "./Sidebar.css";
 
 const SiedeBar = () => {
   return (
-    <div className="drawer translate-y-[-9px] drawer-mobile">
+    <div className="drawer translate-y-[px] drawer-mobile">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content ">
         <Outlet></Outlet>
@@ -52,12 +53,28 @@ const SiedeBar = () => {
           </li>
           <li>
             <a href="">
-              <div className="flex gap-2 ">
-                <div>
-                  <img src={Auction} alt="" />
+              <div className="flex gap-5 items-center dropdown dropdown-hover">
+                <div className="flex gap-2 ">
+                  <div>
+                    <img src={Auction} alt="" />
+                  </div>
+                  <div className="">
+                    <p>Auction</p>
+                    <ul
+                      tabIndex={0}
+                      className="dropdown-content menu p-2 shadow bg-green-100 rounded-box w-52"
+                    >
+                      <li>
+                        <a>All Auction</a>
+                      </li>
+                      <li>
+                        <a>My Proposal</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
                 <div>
-                  <p>Auction</p>
+                  <AiOutlineArrowRight></AiOutlineArrowRight>
                 </div>
               </div>
             </a>
@@ -72,6 +89,9 @@ const SiedeBar = () => {
                   <p>Marketplace</p>
                 </div>
               </div>
+              <div>
+                  <AiOutlineArrowRight></AiOutlineArrowRight>
+                </div>
             </a>
           </li>
           <li>
@@ -88,12 +108,15 @@ const SiedeBar = () => {
           </li>
           <li>
             <a href="">
-              <div className="flex gap-2 ">
+              <div className="flex gap-2 items-center">
                 <div>
                   <img src={events} alt="" />
                 </div>
                 <div>
                   <p>Events</p>
+                </div>
+                <div>
+                  <AiOutlineArrowRight></AiOutlineArrowRight>
                 </div>
               </div>
             </a>

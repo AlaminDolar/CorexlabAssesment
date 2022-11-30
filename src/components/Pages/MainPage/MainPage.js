@@ -9,7 +9,7 @@ import CartPage from "./CartPage";
 import Carts from "./Carts/Carts";
 const MainPage = () => {
   return (
-    <div className="bg-gray-100 p-[19px]">
+    <div className="bg-gray-100 p-[19px] max-w-[1117px]">
       <div>
         <h1 className="text-xl font-bold">Auction</h1>
       </div>

@@ -10,8 +10,8 @@ const header = () => {
     <div className="pl-[323px]  ">
       <div className="navbar bg-white ">
         <div className="flex-1">
-          <p>
-            <span>Auction</span> / All Auction
+          <p className="text-xl font-semibold">
+            <span className="text-gray-400">Auction</span> / All Auction
           </p>
         </div>
 
